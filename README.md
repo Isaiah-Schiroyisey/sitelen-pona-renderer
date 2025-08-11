@@ -10,7 +10,7 @@ A simple way to type in sitelen pona.
 ## Running
 To be honest, I'm not sure what the easiest way to run this is. I just use VS Code and the Live Server extention, so here's how that works:
 1. Download the files provided, making sure to store them all in one folder.
-2. Download [VS Code](https://code.visualstudio.com/)
+2. [Download VS Code](https://code.visualstudio.com/)
 3. In the Extentions tab in VS Code, search for "Live Server" and download it.
 4. In VS Code, click "File" in the top-left.
 5. Click "Open Folder".
