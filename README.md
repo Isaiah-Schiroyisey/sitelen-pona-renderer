@@ -1,9 +1,6 @@
 # Renderer for sitelen pona
 A simple way to type in sitelen pona.
 
-> [!IMPORTANT]
-> I am an amateur. I don't know what I'm doing. I'm just messing around. Don't take this project seriously. (You can still feel free to make changes and submit pull requests and stuff, just know that this isn't an actual serious project.)
-
 > [!NOTE]
 > This renderer uses the [linja pona](https://musilili.net/linja-pona/) font by [musi lili](https://musilili.net/), under the [Creative Commons Attribution 4.0 International License (CC by 4.0)](https://creativecommons.org/licenses/by/4.0/)[^1]
 
