@@ -22,7 +22,7 @@
 
 .light-body {
     margin: 0px;
-    background-color: white;
+    background-color: hsl(213, 25%, 75%);
     color: black;
     font-family: linja-pona;
     display: grid;
@@ -41,6 +41,18 @@ button {
     font-family: linja-pona;
     font-weight: bold;
     font-size: 20px;
+    border: 2px solid hsl(213, 9%, 30%);
+    border-radius: 5px;
+    background-color: hsl(213, 9%, 25%);
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: hsl(213, 9%, 50%);
 }
 
 #reset {
@@ -125,6 +137,8 @@ textarea {
     width: 100%;
     font-size: 2em;
     font-family: linja-pona;
-
+    border: 2px solid hsl(213, 9%, 30%);
+    border-radius: 5px;
+    background-color: hsl(213, 9%, 25%);
+    color: white;
 }
-
