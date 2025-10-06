@@ -11,7 +11,7 @@
 
 .normal-body {
     margin: 0px;
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(27, 27, 27);
     color: white;
     font-family: linja-pona;
     display: grid;
@@ -127,3 +127,4 @@ textarea {
     font-family: linja-pona;
 
 }
+
