@@ -141,4 +141,9 @@ textarea {
     border-radius: 5px;
     background-color: hsl(213, 9%, 25%);
     color: white;
+    resize: vertical;
+}
+
+textarea:focus {
+    outline: none;
 }
