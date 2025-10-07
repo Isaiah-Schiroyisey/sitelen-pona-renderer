@@ -86,6 +86,10 @@ button:active {
     color: black;
 }
 
+a::selection {
+    color: rgb(37, 129, 70);
+}
+
 main {
     padding: 8px;
     font-size: 1em;
@@ -95,6 +99,15 @@ footer {
     background-color: black;
     font-size: 0.75em;
     padding: 8px;
+}
+
+a {
+    color: rgb(90, 196, 90);
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 textarea { 
