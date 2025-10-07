@@ -44,6 +44,7 @@ document.getElementById("darklight").onclick = function () {
     }
 }
 
+// The font doesn't recognize words properly if there isn't a space at the beginning for some reason.
 document.getElementById("textarea").oninput = function () {
     if (document.getElementById("textarea").value === "") {
         document.getElementById("textarea").value = " ";

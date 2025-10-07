@@ -65,7 +65,6 @@ button:active {
     font-size: 2em;
     animation-name: slideIn;
     animation-duration: 0.5s;
-
 }
 
 @keyframes slideIn {
@@ -87,48 +86,15 @@ button:active {
     color: black;
 }
 
-a::selection {
-    color: rgb(37, 129, 70);
-}
-
-h1,
-h2 {
-    font-size: 1.75em;
-}
-
-h2 {
-    text-align: center;
-}
-
-.wrapper {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    height: 100vh;
-}
-
-header {
-    background-color: rgb(43, 43, 43);
-    padding: 8px;
-    box-shadow: 0px 3px 20px black;
-}
-
 main {
     padding: 8px;
+    font-size: 1em;
 }
 
 footer {
     background-color: black;
     font-size: 0.75em;
     padding: 8px;
-}
-
-a {
-    color: rgb(90, 196, 90);
-    text-decoration: none;
-}
-
-a:hover {
-    font-weight: bold;
 }
 
 textarea { 
