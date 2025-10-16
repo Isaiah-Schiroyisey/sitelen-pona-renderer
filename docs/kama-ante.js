@@ -27,26 +27,18 @@ let isInDarkMode = true;
 document.getElementById("darklight").onclick = function () {
     if (isInDarkMode) {
         document.body.className = "light-body";
-        document.getElementById("icon").remove();
-        let newIcon = document.createElement("i");
-        newIcon.className = "fa-solid fa-moon";
-        newIcon.id = "icon";
-        document.getElementById("darklight").appendChild(newIcon);
+        document.getElementById("darklight").textContent = "mun";
         isInDarkMode = false;
     } else {
         document.body.className = "normal-body";
-        document.getElementById("icon").remove();
-        let newIcon = document.createElement("i");
-        newIcon.className = "fa-solid fa-sun";
-        newIcon.id = "icon";
-        document.getElementById("darklight").appendChild(newIcon);
+        document.getElementById("darklight").textContent = "suno";
         isInDarkMode = true;
     }
 }
 
 // The font doesn't recognize words properly if there isn't a space at the beginning for some reason.
 document.getElementById("textarea").oninput = function () {
-    if (document.getElementById("textarea").value === "") {
-        document.getElementById("textarea").value = " ";
-    }
+    let input = document.getElementById("textarea").value;
+    input[0] != " " && (input = " " + input);
+    document.getElementById("textarea").value = input;
 }
