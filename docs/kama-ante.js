@@ -10,7 +10,7 @@ document.getElementById("submit").onclick = function () {
         resetRemove = false;
     }
     newLine = document.createElement("p");
-    newLine.textContent = document.getElementById("textarea").value;
+    newLine.textContent = document.getElementById("textarea").value.slice(1);
     newLine.className = "linjaSitelen";
     document.querySelector("main").appendChild(newLine);
     document.getElementById("textarea").value = " ";
